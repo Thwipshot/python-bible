@@ -17,6 +17,6 @@ while True:
         print("Hmmm I don't think I have met you yet {}".format(name))
         add_me = input("Would you like to be added to the system (y/n)?: ").strip().lower()
         if add_me == "y":
-            print(known_users)
             known_users.append(name)
-            print(known_users)
+        elif add_me == "n":
+            print("No worries, see you around!")
