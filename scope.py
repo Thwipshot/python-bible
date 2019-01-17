@@ -1,11 +1,12 @@
 a = 250
 
 def f1():
-    b = a + 10
-    print(b)
+    global a
+    a = 100 #global
+    print(a)
 
 def f2():
-    a = 50
+    a = 50 #local
     print(a)
 
 f1()
