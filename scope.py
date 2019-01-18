@@ -1,8 +1,7 @@
-a = 250
+a = [1,2,3]
 
 def f1():
-    global a
-    a = 100 #global
+    a[0] = 5
     print(a)
 
 def f2():
